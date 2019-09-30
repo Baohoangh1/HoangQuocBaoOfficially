@@ -31,13 +31,17 @@ Route::post('/bt571_php', function () {
     return view('bt571_php');
 });
 
-Route::get('/bt153_html', function () {
-    return view('bt153_html');
-});
+// Route::get('/login', function () {
+//     return view('login');
+// });
 
-Route::get('/bt153_php', function () {
-    return view('bt153_php');
-});
+// Route::get('/register', function () {
+//     return view('register');
+// });
+
+// Route::get('/welcome', function () {
+//     return view('welcome');
+// });
 
 Route::get('/bt151_1_html', function () {
     return view('bt151_1_html');
@@ -53,6 +57,14 @@ Route::get('/bt151_2_html', function () {
 
 Route::post('/bt151_2_php', function () {
     return view('bt151_2_php');
+});
+
+Route::get('/bt150_1_html', function () {
+    return view('bt150_1_html');
+});
+
+Route::get('/bt150_1_php', function () {
+    return view('bt150_1_php');
 });
 
 //Route::post('/action',function())->name(action);
